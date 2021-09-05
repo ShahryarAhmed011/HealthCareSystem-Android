@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Screens.DoctorScreens.DoctorMainScreen">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor Main Screen"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/user_name_text_view_doctor_main_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"
+        android:text="user name"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/email_text_view_doctor_main_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email@gmail.com"
+        android:background="#2E0606"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/manage_account_button_doctor_main_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Manage Account"
+        android:textAllCaps="false"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@android:color/holo_blue_dark" />
+
+    <Button
+        android:id="@+id/choose_speciality_button_doctor_main_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Choose Speciality"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@android:color/holo_blue_dark" />
+
+    <Button
+        android:id="@+id/show_appointments_button_doctor_main_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Show Appointments"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@android:color/holo_blue_dark" />
+
+
+    <Button
+        android:id="@+id/update_schedule_button_doctor_main_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Update Schedule"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@android:color/holo_blue_dark" />
+
+
+    <Button
+        android:id="@+id/patient_report_button_doctor_main_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Patient Report"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@android:color/holo_blue_dark" />
+
+
+    <Button
+        android:id="@+id/logOut_button_doctor_main_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Log Out"
+        android:textAllCaps="false"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@android:color/holo_blue_dark" />
+    </LinearLayout>
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar_doctor_main_screen"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinetop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.10"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelinebottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.90"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.10"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.90"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

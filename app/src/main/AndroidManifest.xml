@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.helthcaresystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Screens.ContactPatientScreen.ContactPatient"></activity>
+        <activity android:name=".Screens.PharmacyManagePaymentsScreen.PharmacyManagePaymentsScreen" />
+        <activity android:name=".Screens.ViewBillingScreen.ViewBillingScreen" />
+        <activity android:name=".Screens.ShowPrescriptionsScreen.ShowPrescriptionsScreen" />
+        <activity android:name=".Screens.PharmacistManageAccountScreen.PharmacistManageAccountScreen" />
+        <activity android:name=".Screens.PatientManageAccountScreens.PatientManageAccountScreen" />
+        <activity android:name=".Screens.ContactPharmacyScreen.ContactPharmacyScreen" />
+        <activity android:name=".Screens.MakeAppointmentScreens.MakeAppointmentScreen" />
+        <activity android:name=".Screens.PatientViewRecordScreen.PatientViewRecordScreen" />
+        <activity android:name=".Screens.PatientReportScreen.PatientReportScreen" />
+        <activity android:name=".Screens.UpdateScheduleScreen.UpdateScheduleScreen" />
+        <activity android:name=".Screens.ShowAppointmentsScreen.ShowAppointmentScreen" />
+        <activity android:name=".Screens.ChooseSpecialityScreen.ChooseSpecialityScreen" />
+        <activity android:name=".Screens.ManageAccountScreen.ManageAccountScreen" />
+        <activity android:name=".Screens.PharmacistScreens.PharmacistRegistrationScreen" />
+        <activity android:name=".Screens.PharmacistScreens.PharmacistLoginScreen" />
+        <activity android:name=".Screens.PharmacistScreens.PharmacistMainScreen" />
+        <activity android:name=".Screens.DoctorScreens.DoctorRegistrationScreen" />
+        <activity android:name=".Screens.DoctorScreens.DoctorMainScreen" />
+        <activity android:name=".Screens.DoctorScreens.DoctorLoginScreen" />
+        <activity android:name=".Screens.PatientScreens.PatientMainScreen" />
+        <activity android:name=".Screens.PatientScreens.PatientRegistrationScreen" />
+        <activity android:name=".Screens.PatientScreens.PatientLoginScreen" />
+        <activity android:name=".Screens.Main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

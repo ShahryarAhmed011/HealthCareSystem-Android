@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320sp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/topLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10sp"
+        android:paddingStart="10sp">
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+
+        android:gravity="end">
+
+        <EditText
+            android:id="@+id/dialog_edit_text_manage_account_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxLength="20"
+            android:layout_margin="10dp"
+            android:hint="Type..."
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/update_button_manage_account_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="Update"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/cancel_button_manage_account_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="Cancel"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/female_text_view_manage_account_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:visibility="gone"
+            android:gravity="center"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="Female"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@android:color/holo_blue_dark"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/male_text_view_manage_account_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:visibility="gone"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="Male"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textColorHint="@android:color/holo_blue_dark"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

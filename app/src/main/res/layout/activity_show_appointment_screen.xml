@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Screens.ShowAppointmentsScreen.ShowAppointmentScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/monday_date_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Mon-31-12-2020"
+                android:focusable="false"
+                android:textSize="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="-"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/monday_start_time_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="8:00 PM"
+                android:textSize="10dp"
+                android:focusable="false"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="To"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+
+            <EditText
+                android:id="@+id/monday_end_time_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="8:00 PM"
+                android:textSize="10dp"
+                android:focusable="false"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/monday_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_weight="1"
+           />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/tue_date_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Tue-31-4-2020"
+                android:focusable="false"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="-"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/tuesday_start_time_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="8:00 PM"
+                    android:textSize="10dp"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="To"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:id="@+id/tuesday_end_time_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="8:00 PM"
+                    android:textSize="12dp"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/tuesday_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/wed_date_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Wed-31-12-2020"
+                android:focusable="false"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="-"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/wednesday_start_time_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="8:00 PM"
+                    android:textSize="10dp"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="To"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:id="@+id/wednesday_end_time_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="8:00 PM"
+                    android:textSize="12dp"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/wednesday_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/thur_date_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Thur-31-12-2020"
+                android:focusable="false"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="-"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/thursday_start_time_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="8:00 PM"
+                    android:textSize="10dp"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="To"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:id="@+id/thursday_end_time_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="8:00 PM"
+                    android:textSize="12dp"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/thursday_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/fri_date_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Fri-31-12-2020"
+                android:focusable="false"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="-"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/friday_start_time_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="8:00 PM"
+                    android:textSize="10dp"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="To"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:id="@+id/friday_end_time_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="8:00 PM"
+                    android:textSize="12dp"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/friday_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/sat_date_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Sat-31-12-2020"
+                android:focusable="false"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="-"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/saturday_start_time_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="8:00 PM"
+                    android:textSize="10dp"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="To"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:id="@+id/saturday_end_time_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="8:00 PM"
+                    android:textSize="12dp"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/saturday_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/sun_date_edit_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Sun-31-12-2020"
+                android:focusable="false"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="-"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/sunday_start_time_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="8:00 PM"
+                    android:textSize="10dp"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="To"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    />
+
+                <EditText
+                    android:id="@+id/sunday_end_time_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="8:00 PM"
+                    android:textSize="12dp"
+                    android:focusable="false"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/sunday_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/save_update_button_appointment_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:text="Save / Update"
+            android:textColor="#FFFFFF"
+            android:textColorHint="@android:color/holo_blue_dark" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
